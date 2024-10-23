@@ -1,0 +1,20 @@
+.main {
+  background-color: var(--background);
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--text);
+  text-align: center;
+}
+.header {
+  margin-bottom: 15px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.desc {
+  font-size: 20px;
+}
