@@ -9,7 +9,7 @@ interface Props {
 
 const Button = ({ children, className, type="solid" }: Props) => {
   return (
-    <button className={`${styles.btn} ${className}`}>
+    <button className={`${styles.btn} ${styles["btn_"+type]} ${className}`}>
         {children}
     </button>
   )
