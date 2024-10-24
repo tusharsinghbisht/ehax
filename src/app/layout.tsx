@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Anonymous_Pro } from "next/font/google";
 import "./globals.css";
 import HashedBorder from "./components/HashedBorder";
+import Loader from "./components/Loader";
+import Navbar from "./components/Navbar";
 
 const font = Anonymous_Pro({
   weight: ["400", "700"],
@@ -22,7 +24,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${font.className}`}>
         <HashedBorder>
-          {children}
+          <Loader>
+            <Navbar />
+            {children}
+          </Loader>
         </HashedBorder>
       </body>
     </html>

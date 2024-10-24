@@ -1,8 +1,10 @@
 :root {
   --background: #071807;
-  --text: #00FF6A;
+  --text: #00ff04;
 }
-
+body {
+  background-color: var(--background);
+}
 * {
   padding: 0;
   margin: 0;

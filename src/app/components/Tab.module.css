@@ -1,0 +1,32 @@
+
+.tab {
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    background-color: #07180773;
+    backdrop-filter: blur(5px);
+    border: 2px solid var(--text);
+    color: var(--text);
+    z-index: 2;
+  }
+  
+  .tabTop {
+    border-bottom: 2px solid var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+  }
+  
+  .tabHead {
+    padding: 10px 12px;
+  }
+  .tabClose {
+    padding: 5px 10px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .tabContent {
+    margin-top: 15px;
+  }
